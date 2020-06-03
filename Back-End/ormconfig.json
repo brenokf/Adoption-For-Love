@@ -1,0 +1,17 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": //gerada no dockter,
+  "username": "postgres",
+  "password": "docker",
+  "database": "AdoptionForLove",
+  "entities": [
+    "./src/models/*.ts"
+  ],
+  "migrations": [
+    "./src/database/migrations/*.ts"
+  ],
+  "cli":{
+    "migrationsDir":"./src/database/migrations"
+  }
+}
