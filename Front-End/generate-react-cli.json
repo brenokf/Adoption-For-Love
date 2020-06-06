@@ -7,22 +7,22 @@
     "default": {
       "path": "src/components",
       "withLazy": false,
-      "withStory": false,
+      "withStory": true,
       "withStyle": true,
       "withTest": true
     },
     "page": {
       "path": "src/pages",
-      "withLazy": true,
-      "withStory": false,
+      "withLazy": false,
+      "withStory": true,
       "withStyle": true,
       "withTest": true
     },
     "layout": {
       "path": "src/layout",
       "withLazy": false,
-      "withStory": false,
-      "withStyle": false,
+      "withStory": true,
+      "withStyle": true,
       "withTest": true
     }
   }
