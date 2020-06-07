@@ -1,10 +1,10 @@
 {
   "type": "postgres",
   "host": "localhost",
-  "port": //gerada no dockter,
+  "port": 5432,
   "username": "postgres",
   "password": "docker",
-  "database": "AdoptionForLove",
+  "database": "adoption_forlove",
   "entities": [
     "./src/models/*.ts"
   ],
