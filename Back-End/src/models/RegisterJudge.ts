@@ -6,10 +6,13 @@ class RegisterJudge {
   id: string;
 
   @Column()
-  name: string;
+  name_judge: string;
 
   @Column()
-  enrollment: string;
+  email: string;
+  
+  @Column()
+  id_judge: string;
 
   @Column()
   password:string

@@ -12,10 +12,10 @@ class AppointmentsFamily {
   fatherName: string;
 
   @Column()
-  motherCPF: number;
+  motherCPF: string;
 
   @Column()
-  fatherCPF: number;
+  fatherCPF: string;
 
   @Column()
   motherRG: string;
@@ -27,19 +27,19 @@ class AppointmentsFamily {
   address: string;
 
   @Column()
-  motherCellPhone: number;
+  motherCellPhone: string;
 
   @Column()
-  fatherCellPhone: number;
+  fatherCellPhone: string;
 
   @Column()
-  residencePhone: number;
+  residencePhone: string;
 
   @Column()
   civilSituation: string;
 
   @Column()
-  perCapitaIncome: number;
+  perCapitaIncome: string;
 
   @Column()
   dependents: string;

@@ -1,15 +1,15 @@
 import { Entity, Column, PrimaryGeneratedColumn } from 'typeorm';
 
-@Entity('appointmentschildren')
+@Entity('appointmentsinstituition')
 class AppointmentsChildren {
   @PrimaryGeneratedColumn('uuid')
   id: string;
 
   @Column()
-  DateBirthday: Date;
+  DateBirthday: string;
 
   @Column()
-  age: number;
+  age: string;
 
   @Column()
   socialSituation: string;

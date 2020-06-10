@@ -6,10 +6,10 @@ class RegisterFamily {
   id: string;
 
   @Column()
-  name: string;
+  name_family: string;
 
   @Column()
-  rja:string;
+  email: string;
 
   @Column()
   password: string;

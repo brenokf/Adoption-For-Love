@@ -6,12 +6,15 @@ class DependentFamily {
   id: string;
 
   @Column()
-  name: string;
+  name_dependents: string;
 
   @Column()
-  age: number;
+  email: string;
 
   @Column()
-  degreeofKinship : string;
+  age: string;
+
+  @Column()
+  degreeofKinship: string;
 }
 export default DependentFamily;

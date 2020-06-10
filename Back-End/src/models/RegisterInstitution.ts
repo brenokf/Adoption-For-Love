@@ -6,7 +6,10 @@ class InstitutionChildren {
   id: string;
 
   @Column()
-  name: string;
+  name_institution: string;
+
+  @Column()
+  email: string;
 
   @Column()
   cnpj: number;

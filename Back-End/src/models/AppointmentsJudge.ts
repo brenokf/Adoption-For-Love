@@ -7,7 +7,7 @@ class AppointmentsJudge {
   id: string;
 
   @Column()
-  numberProcess: number;
+  numberProcess: string;
 
   @Column()
   childrenName: string;
